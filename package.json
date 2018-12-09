@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack 에 관련된 이것저것 테스트",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.87.0"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+	"flow": "flow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheejinv/webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wheejinv/webpack/issues"
+  },
+  "homepage": "https://github.com/wheejinv/webpack#readme"
+}
